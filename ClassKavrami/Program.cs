@@ -27,7 +27,7 @@ namespace ClassKavrami
     }
     class MyClass
     {
-       public int a;
+       public int a; //Public erişilebilir anlamına gelir.
        public string b; 
     }
 
