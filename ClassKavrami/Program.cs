@@ -18,10 +18,17 @@ namespace ClassKavrami
             //#region Field
             //Nesne içerisinde değer tutmamızı sağlayan alanlardır.
 
-            //MyClass m1 = new MyClass(); //MyClass sınıfından m1 adlı bir nesne oluşturduk.
-            //m1.a = 20;
-            //MyClass m2 = new MyClass();
-            //m2.a = 30;
+
+
+
+
+            //#region Property
+
+            MyClass myClass = new MyClass(); //MyClass sınıfından m1 adlı bir nesne oluşturduk.
+            myClass.Yasi = 55;
+            Console.WriteLine(myClass.Yasi);
+
+            Console.ReadLine();
 
         }
 
@@ -29,29 +36,34 @@ namespace ClassKavrami
     class MyClass
     {
         int yasi; 
-       string b;
+        string b;
 
         //#region Full Property
         //Property hangi türden bir field'ı temsil ediyorsa o türden olmalıdır.
         //Propertyler temsil ettikleri field'ların isimlerinin başharfi büyük olacak şekilde isimlendirilir.
 
-        public int Yasi
-        {
-            get
-            {
-                //Property üzerinde değer talep edildiğinde bu blok tetiklenir.
-                //Yani değer buradan gönderilir.
-                return yasi;
-            }
-            set
-            {
+        //public int Yasi
+        //{
+        //    get
+        //    {
+        //        //Property üzerinde değer talep edildiğinde bu blok tetiklenir.
+        //        //Yani değer buradan gönderilir.
+        //        return yasi;
+        //    }
+        //    set
+        //    {
+        //        yasi= value;    
+
+        //    }
+        //}
 
 
-            }
-        }
 
 
+        //#region Prop Property
 
+        //public int Yasi { get; set; }   
+        //Prop kullanıyorsak kendi field'ımızı kullanmıyoruz.
 
 
 
