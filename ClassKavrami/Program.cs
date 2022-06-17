@@ -24,19 +24,19 @@ namespace ClassKavrami
 
             //#region Property
 
-            MyClass myClass = new MyClass(); //MyClass sınıfından m1 adlı bir nesne oluşturduk.
-            myClass.Yasi = 55;
-            Console.WriteLine(myClass.Yasi);
+            //MyClass myClass = new MyClass(); //MyClass sınıfından m1 adlı bir nesne oluşturduk.
+            //myClass.Yasi = 55;
+            //Console.WriteLine(myClass.Yasi);
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
         }
 
     }
     class MyClass
     {
-        int yasi; 
-        string b;
+        //int yasi; 
+        //string b;
 
         //#region Full Property
         //Property hangi türden bir field'ı temsil ediyorsa o türden olmalıdır.
