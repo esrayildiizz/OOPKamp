@@ -33,7 +33,15 @@ namespace ClassKavrami
         }
 
     }
-    class MyClass
+
+    //#Class elemanlarına açıklama satırı nasıl eklenir. MyClass ın üst kısmına gelip üç tane /// eklersen aşağıdaki gibi açıklama satırı eklemiş olursun.
+    // Yazdığın açıklamayı görebilmek için class ın üstüne gelmek yeterli olur.
+
+
+    /// <summary>
+    /// Bu bir örnek class tır.
+    /// </summary>
+    class MyClass 
     {
         //int yasi; 
         //string b;
