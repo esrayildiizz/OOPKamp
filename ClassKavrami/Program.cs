@@ -24,7 +24,7 @@ namespace ClassKavrami
 
             //#region Property
 
-            //MyClass myClass = new MyClass(); //MyClass sınıfından m1 adlı bir nesne oluşturduk.
+            //MyClass myClass = new MyClass(); //MyClass sınıfından myClass adlı bir nesne oluşturduk.
             //myClass.Yasi = 55;
             //Console.WriteLine(myClass.Yasi);
 
