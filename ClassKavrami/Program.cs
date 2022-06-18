@@ -15,6 +15,7 @@ namespace ClassKavrami
             //Bir class tanımlandığında o class adı bir türdür. Haliyle o türü kullanabilmek için direkt olarak class adını kullanmamız yeterlidir.
 
 
+
             //#region Field
             //Nesne içerisinde değer tutmamızı sağlayan alanlardır.
 
@@ -34,8 +35,12 @@ namespace ClassKavrami
 
     }
 
+
+
     //#Class elemanlarına açıklama satırı nasıl eklenir. MyClass ın üst kısmına gelip üç tane /// eklersen aşağıdaki gibi açıklama satırı eklemiş olursun.
     // Yazdığın açıklamayı görebilmek için class ın üstüne gelmek yeterli olur.
+
+
 
 
     /// <summary>
