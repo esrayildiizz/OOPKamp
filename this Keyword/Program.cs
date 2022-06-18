@@ -19,6 +19,7 @@ namespace this_Keyword
 
 
             #region 2-Aynı isimde field ile metot parametrelerini ayırmak için kullanılır.
+
             #region 3-Bir Constructer'dan başka bir Constructer'ı çağırmak için kullanılır.
         }
     }
