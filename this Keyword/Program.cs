@@ -13,6 +13,7 @@ namespace this_Keyword
 
             #region this Keyword
             #region 1-Sınıfın nesnesini temsil eder.
+
             MyClass m1 = new MyClass();
             MyClass m2 = new MyClass();  
 
