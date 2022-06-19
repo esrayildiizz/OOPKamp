@@ -43,6 +43,7 @@ namespace RecapDemo1
                     this.Controls.Add(buttons[i,j]);    
                    
                 }
+
                 top += 50;
                 left = 0;
             }
