@@ -18,6 +18,7 @@ namespace Interfaces
     }
 
     interface IPerson 
+
     {
          int Id { get; set; }
          string FirstName { get; set; }    
@@ -27,6 +28,7 @@ namespace Interfaces
     }
 
     class Customer : IPerson
+
     {
         public int Id { get ; set ; }
         public string FirstName { get; set; }
@@ -38,6 +40,7 @@ namespace Interfaces
 
 
     class Student : IPerson
+
     {
         public int Id { get ; set ; }
         public string FirstName { get  ; set ; }
@@ -49,6 +52,7 @@ namespace Interfaces
 
 
     class PersonManager
+
     {
         public void Add(Customer customer)
         {
