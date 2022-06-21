@@ -33,5 +33,11 @@ namespace Inheritance2
             SebzeYemekleri sebzeyemek = new SebzeYemekleri();    
             MessageBox.Show(sebzeyemek.SunumSekli());
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AraSicaklar arasicak=new AraSicaklar();
+            MessageBox.Show(arasicak.SunumSekli());
+        }
     }
 }
