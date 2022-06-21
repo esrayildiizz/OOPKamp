@@ -24,19 +24,12 @@ namespace Encapsulation
             }
         }
 
-        private string soyadi;
+        
+        // Auto property'de field tanımlamamıza gerek yoktur.
+        //Auto property 
 
-        public string Soyadi
-        {
-            get
-            {
-                return soyadi;
-            }
-            set
-            {
-                soyadi= value;
-            }
-        }
+        public string Soyadi { get; set; }
+        
 
     }
 
