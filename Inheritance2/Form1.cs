@@ -19,8 +19,19 @@ namespace Inheritance2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            EtYemekleri ey=new EtYemekleri();
-            MessageBox.Show(ey.SunumSekli());
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            EtYemekleri etyemek = new EtYemekleri();
+            MessageBox.Show(etyemek.SunumSekli());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SebzeYemekleri sebzeyemek = new SebzeYemekleri();    
+            MessageBox.Show(sebzeyemek.SunumSekli());
         }
     }
 }
