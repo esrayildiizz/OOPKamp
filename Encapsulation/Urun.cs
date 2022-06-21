@@ -8,9 +8,10 @@ namespace Encapsulation
 {
     internal class Urun
     {
-
+        //field
         private string adi;
       
+        //Property
         public string Adi
         {
             get
