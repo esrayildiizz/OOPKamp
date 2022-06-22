@@ -35,6 +35,9 @@ namespace Abstract
 
         public string Mensei { get; set; }  
         public DateTime UretimTarihi { get; set; }  
+
+        // Peki sınıf abstract olduğu için ben abstract olmayan  Mensei ve UretimTarihi ne de ulaşamıyorum onu nasıl yapacağım.
+        //Erişmemize gerek yoktur.
         
 
 
