@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance2
+namespace Polymorphizm
 {
     internal class SebzeYemekleri:Yemek
     {

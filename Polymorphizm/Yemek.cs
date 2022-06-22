@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance2
+namespace Polymorphizm
 {
     internal class Yemek
     {
@@ -22,6 +22,7 @@ namespace Inheritance2
          }
 
         /*
+         
          * virtual: virtual komutu ile işaretlenmiş metot isteğe bağlı olarak türetilen 
          sınıflarda değiştirilebilir anlamına gelmektedir. Yani bu metot ezilebilir denilmiş olur.
         
