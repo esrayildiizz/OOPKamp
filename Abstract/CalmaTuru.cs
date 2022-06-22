@@ -8,9 +8,11 @@ namespace Abstract
 {
     internal enum CalmaTuru
     {
+
         UfleyerekCalma,
         TelliCalma,
         VurmaliCalma,
         SallamalıCalma,
+
     }
 }
