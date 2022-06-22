@@ -8,5 +8,9 @@ namespace Abstract
 {
     internal class Keman:MuzikAletleri
     {
+        public override string Cal()
+        {
+            return "Keman Çalınıyor.";
+        }
     }
 }

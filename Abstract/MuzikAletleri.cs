@@ -15,7 +15,7 @@ namespace Abstract
          *
          */
 
-        public string Cal()
+        public virtual string Cal()
         {
             return "Müzik Aleti çalınıyor.";
         }

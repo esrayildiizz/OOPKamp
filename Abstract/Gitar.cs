@@ -8,5 +8,9 @@ namespace Abstract
 {
     internal class Gitar : MuzikAletleri
     {
+        public override string Cal()
+        {
+            return "Gitar Çalınıyor.";
+        }
     }
 }

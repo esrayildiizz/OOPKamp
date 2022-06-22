@@ -8,5 +8,9 @@ namespace Abstract
 {
     internal class Bateri:MuzikAletleri
     {
+        public override string Cal()
+        {
+            return "Bateri Çalınıyor.";
+        }
     }
 }
