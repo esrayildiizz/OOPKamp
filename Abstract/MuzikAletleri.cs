@@ -39,7 +39,7 @@ namespace Abstract
         // Peki sınıf abstract olduğu için ben abstract olmayan  Mensei ve UretimTarihi ne de ulaşamıyorum onu nasıl yapacağım.
         //Erişmemize gerek yoktur.
         
-
+        public abstract CalmaTuru CalmaTuru { get; set; }   
 
 
 

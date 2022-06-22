@@ -8,6 +8,20 @@ namespace Abstract
 {
     internal class Bateri:MuzikAletleri
     {
+        public override CalmaTuru CalmaTuru
+        {
+            get
+            {
+                return CalmaTuru.VurmaliCalma;
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+
+
         public override string Cal()
         {
             return "Bateri Çalınıyor.";
