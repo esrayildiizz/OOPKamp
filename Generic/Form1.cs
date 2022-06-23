@@ -37,7 +37,14 @@ namespace Generic
              List<string> isimler = new List<string>();
             isimler.Add("Esra");
 
+            List<int> sayilar = new List<int>();
+            sayilar.Add(524);
 
+
+
+
+            Ogrenci o1=new Ogrenci();   
+            o1.
 
 
         }
