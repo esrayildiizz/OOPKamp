@@ -20,8 +20,11 @@ namespace Generic
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ArrayList list = new ArrayList();   
-
+            ArrayList list = new ArrayList();
+            list.Add("Esra");
+            list.Add(524);
+            list.Add(true);
+            list.Add("a");
         }
     }
 }
