@@ -22,7 +22,9 @@ namespace Abstract
 
 
 
+
         public override string Cal()
+
         {
             return "Bateri Çalınıyor.";
         }
