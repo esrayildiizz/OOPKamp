@@ -30,7 +30,16 @@ namespace Generic
 
             //Ortaya şöyle bir dezavantaj çıkıyor. 
             //Tüm değerler add adı altında olduğu için aşağıdaki gibi sıfırıncı indis string bir değerdir şeklinde tanımlama yapmamız gerekiyor.
-            string isim=(string)list[0];    
+            string isim=(string)list[0];   
+            //Tabi bu yapılan işler kod fazlalaştıkça yine sıkıntı çıkaracaktır. 
+            //Buna istinaden daha iyisini yaparak Generic mimariye dayanarak yeni bir List çıkarmışlar.
+           
+             List<string> isimler = new List<string>();
+            isimler.Add("Esra");
+
+
+
+
         }
     }
 }
