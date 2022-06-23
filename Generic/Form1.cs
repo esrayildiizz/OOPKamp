@@ -21,10 +21,16 @@ namespace Generic
         private void Form1_Load(object sender, EventArgs e)
         {
             ArrayList list = new ArrayList();
-            list.Add("Esra");
+
+            //Add :  verilen degeri en son siraya ekle demek
+            list.Add("Esra"); 
             list.Add(524);
             list.Add(true);
             list.Add("a");
+
+            //Ortaya şöyle bir dezavantaj çıkıyor. 
+            //Tüm değerler add adı altında olduğu için aşağıdaki gibi sıfırıncı indis string bir değerdir şeklinde tanımlama yapmamız gerekiyor.
+            string isim=(string)list[0];    
         }
     }
 }
