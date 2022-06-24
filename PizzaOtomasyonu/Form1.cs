@@ -39,6 +39,48 @@ namespace PizzaOtomasyonu
             cmbEbat.Items.Add(buyuk);   
             cmbEbat.Items.Add(maxi);    
 
+
+            Pizza klasik=new Pizza { Adi="Klasik" ,Fiyat = 14 }; 
+            Pizza karisik= new Pizza { Adi="Karışık", Fiyat= 17 };
+            Pizza turkish = new Pizza { Adi = "Turkish", Fiyat = 20 };
+            Pizza tuna = new Pizza { Adi = "Tuna", Fiyat = 21 };
+            Pizza akdeniz = new Pizza { Adi = "Akdeniz", Fiyat = 19 };
+            Pizza karadeniz = new Pizza { Adi = "Karadeniz", Fiyat = 22 };
+
+
+            listPizzalar.Items.Add(klasik);
+            listPizzalar.Items.Add(karisik);
+            listPizzalar.Items.Add(turkish);
+            listPizzalar.Items.Add(tuna);
+            listPizzalar.Items.Add(akdeniz);
+            listPizzalar.Items.Add(karadeniz);
+
+
+
+            KenarTip ince = new KenarTip { Adi = "İnce Kenar", EkFiyat = 0 };
+            KenarTip kalin = new KenarTip { Adi = "Kalın Kenar", EkFiyat = 2 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
         private void label7_Click(object sender, EventArgs e)

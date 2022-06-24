@@ -14,7 +14,7 @@ namespace PizzaOtomasyonu
 
         public override string ToString()
         {
-            return Adi;
+            return string.Format("{0}-{1}", Adi,Carpan);
         }
     }
 }
