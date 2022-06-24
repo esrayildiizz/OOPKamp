@@ -18,6 +18,8 @@ namespace PizzaOtomasyonu
         public decimal ToplamTutar { get; set; }
 
 
+
+
         public override string ToString()
         {
             string spr = "";

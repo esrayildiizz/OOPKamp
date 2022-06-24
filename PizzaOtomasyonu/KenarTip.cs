@@ -9,6 +9,8 @@ namespace PizzaOtomasyonu
     internal class KenarTip
     {
         public string Adi { get; set; } 
-        public int EkFiyat { get; set; }    
+        public int EkFiyat { get; set; }  
+        
+
     }
 }
