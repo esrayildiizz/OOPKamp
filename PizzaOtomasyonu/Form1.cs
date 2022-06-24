@@ -21,15 +21,20 @@ namespace PizzaOtomasyonu
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             Ebat kucuk = new Ebat { Adi = "Küçük", Carpan = 1 };
             Ebat orta = new Ebat { Adi = "Orta", Carpan = 1.25 };
             Ebat buyuk = new Ebat { Adi = "Büyük", Carpan = 1.75 };
             Ebat maxi= new Ebat { Adi="Maxi" , Carpan = 2 };
 
+
+
             cmbEbat.Items.Add(kucuk);
             cmbEbat.Items.Add(orta);    
             cmbEbat.Items.Add(buyuk);   
             cmbEbat.Items.Add(maxi);    
+
+
 
 
             Pizza klasik=new Pizza { Adi="Klasik" ,Fiyat = 14 }; 
@@ -40,12 +45,14 @@ namespace PizzaOtomasyonu
             Pizza karadeniz = new Pizza { Adi = "Karadeniz", Fiyat = 22 };
 
 
+
             listPizzalar.Items.Add(klasik);
             listPizzalar.Items.Add(karisik);
             listPizzalar.Items.Add(turkish);
             listPizzalar.Items.Add(tuna);
             listPizzalar.Items.Add(akdeniz);
             listPizzalar.Items.Add(karadeniz);
+
 
 
 
