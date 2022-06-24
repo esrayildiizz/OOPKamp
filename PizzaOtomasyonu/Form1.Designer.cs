@@ -273,6 +273,7 @@
             this.btnHesapla.TabIndex = 10;
             this.btnHesapla.Text = "Hesapla";
             this.btnHesapla.UseVisualStyleBackColor = true;
+            this.btnHesapla.Click += new System.EventHandler(this.btnHesapla_Click);
             // 
             // label5
             // 

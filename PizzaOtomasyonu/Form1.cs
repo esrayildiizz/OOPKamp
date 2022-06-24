@@ -58,7 +58,10 @@ namespace PizzaOtomasyonu
 
 
             KenarTip ince = new KenarTip { Adi = "İnce Kenar", EkFiyat = 0 };
+            rdbInceKenar.Tag= ince;
             KenarTip kalin = new KenarTip { Adi = "Kalın Kenar", EkFiyat = 2 };
+            rdbKalinKenar.Tag = kalin;
+
 
 
 
@@ -95,6 +98,29 @@ namespace PizzaOtomasyonu
 
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnHesapla_Click(object sender, EventArgs e)
+        {
+            Pizza p = (Pizza)listPizzalar.SelectedItem;
+            p.Ebati = (Ebat)cmbEbat.SelectedItem; //Seçilen ebati hesapla demek.
+            p.KenarTipi = rdbInceKenar.Checked ? (KenarTip)rdbInceKenar.Tag : (KenarTip)rdbKalinKenar.Tag; //? ise demek.    : değilse demek. 
+            p.Malzemeler = new List<string>();
+
+            foreach (CheckBox ctrl in groupBox1.Controls)
+            {
+                if(ctrl.Checked)    
+                {
+                    p.Malzemeler.Add(ctrl.Text);
+                }
+            }
+
+            decimal tutar = nudAdet.Value * p.Tutar;
+            txtTutar.Text= tutar.ToString();        
+
+
+
 
         }
     }

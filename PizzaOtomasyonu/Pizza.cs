@@ -15,9 +15,28 @@ namespace PizzaOtomasyonu
         public List<string> Malzemeler { get; set; }
 
 
+        public decimal Tutar
+        {
+            get
+            {
+                decimal tutar = 0;
+                tutar = Fiyat * (decimal)Ebati.Carpan;
+                tutar += KenarTipi.EkFiyat;
+                return tutar;
+
+            }
+        }
+
+
+
         public override string ToString()
         {
             return string.Format("{0}-{1}", Adi, Fiyat);
         }
+
+
+
+
+
     }
 }
