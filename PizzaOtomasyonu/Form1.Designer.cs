@@ -336,6 +336,7 @@
             this.btnSepeteEkle.TabIndex = 17;
             this.btnSepeteEkle.Text = "Sepete Ekle";
             this.btnSepeteEkle.UseVisualStyleBackColor = true;
+            this.btnSepeteEkle.Click += new System.EventHandler(this.btnSepeteEkle_Click);
             // 
             // Form1
             // 

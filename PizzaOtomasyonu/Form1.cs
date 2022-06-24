@@ -17,15 +17,7 @@ namespace PizzaOtomasyonu
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -68,39 +60,10 @@ namespace PizzaOtomasyonu
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox8_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        Siparis s;
         private void btnHesapla_Click(object sender, EventArgs e)
         {
             Pizza p = (Pizza)listPizzalar.SelectedItem;
@@ -117,11 +80,24 @@ namespace PizzaOtomasyonu
             }
 
             decimal tutar = nudAdet.Value * p.Tutar;
-            txtTutar.Text= tutar.ToString();        
+            txtTutar.Text= tutar.ToString();
+
+            s = new Siparis();
+            s.Pizza =p ;
+            s.Adet=(int)nudAdet.Value;
 
 
 
+        }
 
+        
+        private void btnSepeteEkle_Click(object sender, EventArgs e)
+        {
+            if (s != null)
+            {
+                listSepet.Items.Add(s);
+            }
+           
         }
     }
 }
