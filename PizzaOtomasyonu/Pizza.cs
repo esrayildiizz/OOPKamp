@@ -19,6 +19,7 @@ namespace PizzaOtomasyonu
         {
             get
             {
+
                 decimal tutar = 0;
                 tutar = Fiyat * (decimal)Ebati.Carpan;
                 tutar += KenarTipi.EkFiyat;
@@ -31,7 +32,9 @@ namespace PizzaOtomasyonu
 
         public override string ToString()
         {
+
             return string.Format("{0}-{1}", Adi, Fiyat);
+
         }
 
 
