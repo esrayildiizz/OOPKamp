@@ -54,7 +54,7 @@
             this.listSepet = new System.Windows.Forms.ListBox();
             this.label6 = new System.Windows.Forms.Label();
             this.lblToplamTutar = new System.Windows.Forms.Label();
-            this.btnSiparisOnay = new System.Windows.Forms.Button();
+            this.btnSiparisiOnayla = new System.Windows.Forms.Button();
             this.btnSepeteEkle = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudAdet)).BeginInit();
@@ -126,7 +126,6 @@
             this.rdbKalinKenar.Name = "rdbKalinKenar";
             this.rdbKalinKenar.Size = new System.Drawing.Size(95, 20);
             this.rdbKalinKenar.TabIndex = 6;
-            this.rdbKalinKenar.TabStop = true;
             this.rdbKalinKenar.Text = "Kalın Kenar";
             this.rdbKalinKenar.UseVisualStyleBackColor = true;
             // 
@@ -297,7 +296,7 @@
             this.listSepet.ItemHeight = 16;
             this.listSepet.Location = new System.Drawing.Point(303, 91);
             this.listSepet.Name = "listSepet";
-            this.listSepet.Size = new System.Drawing.Size(447, 372);
+            this.listSepet.Size = new System.Drawing.Size(470, 372);
             this.listSepet.TabIndex = 13;
             // 
             // label6
@@ -318,15 +317,15 @@
             this.lblToplamTutar.TabIndex = 15;
             this.lblToplamTutar.Click += new System.EventHandler(this.label7_Click);
             // 
-            // btnSiparisOnay
+            // btnSiparisiOnayla
             // 
-            this.btnSiparisOnay.Location = new System.Drawing.Point(612, 518);
-            this.btnSiparisOnay.Name = "btnSiparisOnay";
-            this.btnSiparisOnay.Size = new System.Drawing.Size(110, 23);
-            this.btnSiparisOnay.TabIndex = 16;
-            this.btnSiparisOnay.Text = "Siparişi Onayla";
-            this.btnSiparisOnay.UseVisualStyleBackColor = true;
-            this.btnSiparisOnay.Click += new System.EventHandler(this.button2_Click);
+            this.btnSiparisiOnayla.Location = new System.Drawing.Point(574, 512);
+            this.btnSiparisiOnayla.Name = "btnSiparisiOnayla";
+            this.btnSiparisiOnayla.Size = new System.Drawing.Size(172, 38);
+            this.btnSiparisiOnayla.TabIndex = 16;
+            this.btnSiparisiOnayla.Text = "Siparişi Onayla";
+            this.btnSiparisiOnayla.UseVisualStyleBackColor = true;
+            this.btnSiparisiOnayla.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnSepeteEkle
             // 
@@ -341,9 +340,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(762, 562);
+            this.ClientSize = new System.Drawing.Size(785, 562);
             this.Controls.Add(this.btnSepeteEkle);
-            this.Controls.Add(this.btnSiparisOnay);
+            this.Controls.Add(this.btnSiparisiOnayla);
             this.Controls.Add(this.lblToplamTutar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.listSepet);
@@ -399,7 +398,7 @@
         private System.Windows.Forms.ListBox listSepet;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblToplamTutar;
-        private System.Windows.Forms.Button btnSiparisOnay;
+        private System.Windows.Forms.Button btnSiparisiOnayla;
         private System.Windows.Forms.Button btnSepeteEkle;
     }
 }
