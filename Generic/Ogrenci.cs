@@ -10,7 +10,7 @@ namespace Generic
 
     //Bir sınıfı generic hale aşağıdaki gibi getiririz.
     //Temsili yazdığımız yere istediğimizi yazabiliriz.
-    internal class Ogrenci<Temsili>
+    internal class Ogrenci //<Temsili> yazılır.
     {
         public string Adi { get; set; }    
         public string Soyadi { get; set; }
