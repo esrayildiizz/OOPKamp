@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace PizzaOtomasyonu
 {
-    internal class Ebat
+    internal class KenarTip
     {
-
         public string Adi { get; set; } 
-        public double  Carpan  { get; set; }
-
-        public override string ToString()
-        {
-            return Adi;
-        }
+        public int EkFiyat { get; set; }    
     }
 }

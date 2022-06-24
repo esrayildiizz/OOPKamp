@@ -29,6 +29,15 @@ namespace PizzaOtomasyonu
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Ebat kucuk = new Ebat { Adi = "Küçük", Carpan = 1 };
+            Ebat orta = new Ebat { Adi = "Orta", Carpan = 1.25 };
+            Ebat buyuk = new Ebat { Adi = "Büyük", Carpan = 1.75 };
+            Ebat maxi= new Ebat { Adi="Maxi" , Carpan = 2 };
+
+            cmbEbat.Items.Add(kucuk);
+            cmbEbat.Items.Add(orta);    
+            cmbEbat.Items.Add(buyuk);   
+            cmbEbat.Items.Add(maxi);    
 
         }
 
